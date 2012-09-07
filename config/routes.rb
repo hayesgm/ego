@@ -1,4 +1,7 @@
 Ego::Application.routes.draw do
+  
+  match 'about/me' => 'bios#me', :as => :about_me
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
